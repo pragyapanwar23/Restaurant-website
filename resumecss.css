@@ -1,0 +1,55 @@
+/* Basic reset styles */
+body {
+    background-color: lightgrey;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+  /* Website layout */
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px 0;
+  }
+  
+  section {
+    flex: 1 0 300px; /* Flexbox settings for sections */
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: rgb(163, 160, 160);
+  }
+  
+  /* Header styles */
+  header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f0f0f0;
+  }
+  
+  header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 1.2em;
+    margin-bottom: 0;
+  }
+  
+  /* Footer styles */
+  footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f0f0f0;
+  }
+  
+  footer p {
+    margin-bottom: 5px;
+  }
+  
